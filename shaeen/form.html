@@ -22,13 +22,15 @@
     <br>
 
         <label for="Coursename"> Course: </label>
-
-        <input type="text"  name="coursename" id="coursename" placeholder ="Course name">
+        <select name="course" id="coursename">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="js">JS</option>
+        </select>
 
     <br>
 
-    <label for="Gender"> Gender </label>
-
+    <p> Gender </p>
 <br>
         <input type ="radio" name="gender" value ="male" checked> Male<br >
         <input type="radio"  name="gender" value="female" > Female<br>
@@ -36,10 +38,10 @@
         <br>
 
         <label for="Hobbies">Hobbies:</label><br>
-        <input type="checkbox" value="">Programming<br>
-        <input type="checkbox">Read <br>
-        <input type="checkbox">Read <br>
-        <input type="checkbox">Read <br>
+        <input type="checkbox" value="programming" >Programming<br>
+        <input type="checkbox" value="basketball">Basketball<br>
+        <input type="checkbox" value="football">Football<br>
+        <input type="checkbox" value="read">Reading Novel<br>
 
         <!-- <select id="Hobbies" name="Hobbies">
             <option input type ="checkbox" value="selected">Programming <br >
@@ -54,12 +56,13 @@
                 
                 <br>
 
-                <label for="message" >Address: </label>
+                <label for="Address" >Address: </label>
 
             <br>
 
-            <textarea id="message"  name="message" rows="4"  cols="20">
+            <textarea id="Address"  name="address" rows="4"  cols="20">
 
+                
             </textarea>
 
             <br>
@@ -74,6 +77,8 @@
             <br>
 
             <input type="submit"  value="Submit">
+
+            <input type="reset"  value="Reset">
 
 
             
